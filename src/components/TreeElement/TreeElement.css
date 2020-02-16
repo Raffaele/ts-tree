@@ -1,0 +1,35 @@
+.tree-node {
+    border: 1px red solid;
+    margin-bottom: 5px;
+    padding-top: 5px;
+}
+
+.tree-node .tree-node {
+    margin-left: 50px;
+}
+
+.tree-node__child-list {
+    padding-inline-start: 0;
+    list-style-type: none;
+}
+
+.tree-node__child-list-item__remove-cmd {
+    position: absolute;
+}
+
+.tree-element__label {
+    background-color: darkblue;
+    color: white;
+    padding: 5px 15px;
+    display: inline-block;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.node-panel {
+    margin-bottom: 10px;
+}
+
+.node-panel button {
+    margin: 0 2px;
+}
